@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            User Details
+        </title>
+    </head>
+<body>
+    <form action = "">
+
+        <h2>
+            <center><b>Payment Form</b></center>
+        </h2>
+        <hr size = "5">
+        <h3>
+            <left><u>Contact Information</u> :</left>
+        </h3>
+        <p>
+            <small>Required Fields are marked by * </small>
+            <p>
+                Name* : <input type = "text" name = "name" required>
+            </p>
+            <p>
+                <fieldset>
+                <legend>Gender</legend>
+                MALE <input type = "radio" name = "gender" required> FEMALE <input type = "radio" name = "gender" required> TRANSGENDER <input type = "radio" name = "gender" required>
+                </fieldset>
+            </p>
+            <p>
+                Adress : <textarea name = "adress" rows = "10" cols = "100"></textarea>
+            </p>
+            <p>
+                Email* : <input type = "email" name = "email" required>
+            </p>
+            <p>
+                Pincode : <input type = "number" name = "pincode"> 
+            </p>
+            <p>
+                <h2>Payment Gateway</h2>
+                <p>
+                    Card Type :* 
+                    <select name = "card type" required>
+                        <option value = "">--Select a Card Type--</option>
+                        <option value = "visa">Visa</option>
+                        <option value = "master card">Master Card</option>
+                        <option value = "credit card">Credit Card</option>
+                        <option value = "debit card">Debit Card</option>
+                    </select>
+                </p>
+                <p>
+                    Card Number* : <input type = "number" name = "card_number" required>
+                </p>
+                <p>
+                    Expiry Date* : <input type = "date" name = "expiry_date" required>
+                </p>
+                <p>
+                    CVV* : <input type = "password" name = "cvv" required>
+                </p>
+                <hr>
+                <input type = "submit" value = "Pay Now" required>
+            </p>
+        </p>
+    </form>
+</body>
+</html>
