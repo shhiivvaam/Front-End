@@ -1,0 +1,21 @@
+* {
+    color : rebeccapurple;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+
+header{
+    padding: 1%;
+    color: lightblue;
+    text-align: center ;
+    background-color: #7aa8b8;
+    scroll-behavior: fixed;
+}
+
+#top,small { 
+    scroll-behavior: smooth;
+}   
